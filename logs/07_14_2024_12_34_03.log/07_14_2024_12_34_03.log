@@ -1,0 +1,13 @@
+[ 2024-07-14 12:34:03,825 ] 160 numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+[ 2024-07-14 12:34:06,071 ] 26 root - INFO - Entered the data ingestion method or component
+[ 2024-07-14 12:34:06,081 ] 29 root - INFO - Read the dataset as dataframe
+[ 2024-07-14 12:34:06,096 ] 35 root - INFO - Train test split initiated
+[ 2024-07-14 12:34:06,096 ] 42 root - INFO - Inmgestion of the data iss completed
+[ 2024-07-14 12:34:06,130 ] 82 root - INFO - Read train and test data completed
+[ 2024-07-14 12:34:06,130 ] 84 root - INFO - Obtaining preprocessing object
+[ 2024-07-14 12:34:06,130 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2024-07-14 12:34:06,130 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2024-07-14 12:34:06,133 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2024-07-14 12:34:06,152 ] 109 root - INFO - Saved preprocessing object.
+[ 2024-07-14 12:34:06,152 ] 33 root - INFO - Split training and test input data
+[ 2024-07-14 12:35:30,902 ] 102 root - INFO - Best found model on both training and testing dataset
